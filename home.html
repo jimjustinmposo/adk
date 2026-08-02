@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home - ADK9 Mussafah</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="dashboard-body">
+
+  <div class="dashboard-layout">
+
+    <aside class="sidebar">
+      <div class="sidebar-user">
+        <div class="user-avatar"><i class="fa-solid fa-user"></i></div>
+        <div class="user-info">
+          <p class="user-name" id="userName">Welcome, User</p>
+          <span class="user-badge" id="userBadge">Handler</span>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <a href="crud.html?category=obedience" class="nav-item" style="--delay: 0.05s">
+          <i class="fa-solid fa-dog"></i> <span>K9 Obedience</span>
+        </a>
+        <a href="crud.html?category=grooming" class="nav-item" style="--delay: 0.1s">
+          <i class="fa-solid fa-scissors"></i> <span>K9 Grooming</span>
+        </a>
+        <a href="crud.html?category=weight" class="nav-item" style="--delay: 0.15s">
+          <i class="fa-solid fa-weight-scale"></i> <span>K9 Weight</span>
+        </a>
+        <a href="crud.html?category=food" class="nav-item" style="--delay: 0.2s">
+          <i class="fa-solid fa-bowl-food"></i> <span>K9 Food Intake</span>
+        </a>
+        <a href="crud.html?category=training" class="nav-item" style="--delay: 0.25s">
+          <i class="fa-solid fa-graduation-cap"></i> <span>K9 Training</span>
+        </a>
+      </nav>
+
+      <button id="logoutBtn" class="sidebar-logout">
+        <i class="fa-solid fa-right-from-bracket"></i> <span>Logout</span>
+      </button>
+    </aside>
+
+    <main class="main-content">
+      <div
